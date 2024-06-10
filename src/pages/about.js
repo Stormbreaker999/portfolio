@@ -95,7 +95,9 @@ function about() {
                     
                 </div>
             </div>
+            <div className='sm:hidden'>
             <Skills/>
+            </div>
             <Experience/>
             <Education/>
             </Layout>
