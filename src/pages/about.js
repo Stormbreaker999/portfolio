@@ -50,16 +50,11 @@ function about() {
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Who am I?</h2>
-                    <p className='text-[1.05rem]'> Hi, I'm Avichal, a web developer, UI/UX designer, ML Aspirant and DSA Enthusiast with a passion for creating beautiful, functional, 
-                        and user-centered digital experiences. I am always looking for new and innovative ways to bring my visions to reality.
-                        I have pretty good command in core fundamentals and encompasses very good problem solving skills.</p>
+                    <p className='text-[1.05rem]'> Hi, I'm Avichal, a web developer, UI/UX designer, ML Aspirant and DSA Enthusiast with a passion for creating beautiful, functional, and user-centered digital experiences. I am always looking for new and innovative ways to bring my visions to reality. I have pretty good command in core fundamentals and encompasses very good problem solving skills.</p>
 
-                    <p className=' my-4 text-[1.05rem]'>I believe that design is about more than just making things look pretty. It's about solving problems and 
-                        creating intuitive, enjoyable experiences for users.</p>
+                    <p className=' my-4 text-[1.05rem]'>I believe that design is about more than just making things look pretty. It's about solving problems and creating intuitive, enjoyable experiences for users.</p>
 
-                    <p className='text-[1.05rem]'> Whether I'm working on a website or 
-                        other software product, I bring my commitment to design excellence and user-centered thinking to 
-                        every project I work on. I look forward to the opportunity to bring my skills and passion to the next projects.</p>
+                    <p className='text-[1.05rem]'> Whether I'm working on a website or other software product, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to the next projects.</p>
                 </div>
                 <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
                 bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8' >

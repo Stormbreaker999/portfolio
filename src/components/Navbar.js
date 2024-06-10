@@ -108,7 +108,7 @@ function Navbar() {
             <motion.a href="https://www.instagram.com/dubey_avichal/" target={"_blank"}
             className='w-11 ml-3'
             whileHover={{y:-2}}
-            whileTap={{scale:0.9}}><Image src={insta} className='rounded-xl'/></motion.a>
+            whileTap={{scale:0.9}}><Image src={insta} alt="Insta" className='rounded-xl'/></motion.a>
             <button className={`ml-3 flex items-center justify-center rounded-full p-1
             ${mode==="light"?"bg-dark text-light":"bg-light text-dark"}`} onClick={()=>{
               setMode(mode==="light"?"dark":"light")
