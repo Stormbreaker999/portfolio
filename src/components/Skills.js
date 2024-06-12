@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import { CC, HTML, JS, Java, MDB, ML, Nextjs, NodeIcon, Python, ReactIcon, TS } from './Icons'
 
 const Skill=({name,x,y,className=""})=>{
     return(
@@ -15,12 +16,16 @@ const Skill=({name,x,y,className=""})=>{
         </motion.div>
     )
 }
-const PhoneSkill=({name, progress})=>{
+const PhoneSkill=({name, progress, Icon})=>{
   return(
-    <motion.div className='flex item-center justify-center dark:bg-light bg-dark col-span-6'
-    animate={{scale:1.05}} transition={{duration:0.5}}>
-      <h2 className='text-xl text-primary dark:text-primaryDark '>{name}</h2>
-      <div className={`w-[${progress}%] px-2 h-[2px] bg-slate-500`}/>
+    <motion.div className='flex w-full item-center justify-center rounded-2xl dark:bg-light bg-dark col-span-12 p-4 gap-1 hover:cursor-pointer'
+    whileHover={{scale:1.05}} transition={{duration:0.5}}>
+      <div className='w-[4rem] bg-light dark:bg-dark'><Icon/></div>
+      <div className='flex flex-col w-full item-center justify-center gap-y-1'>
+      <h2 className='text-2xl font-bold text-primary dark:text-primaryDark self-center'>{name}</h2>
+      <motion.div className={` px-2 h-[5px] bg-gradient-to-r from-purple-500 to-pink-500`}
+      initial={{width:"0%"}} whileInView={{width:`${progress}%`}} transition={{duration:1.2}} viewport={{once:true}}/>
+      </div>
     </motion.div>
   )
 }
@@ -50,8 +55,19 @@ function Skills() {
         <Skill name="Data Science" x="25vw" y="8vw" className={"sm:hidden"}/>
         <Skill name="Assembly Language" x="27vw" y="-1.5vw" className={"sm:hidden"}/>
     </div>
-    <div className='w-full grid-cols-12 h-screen relative items-center justify-center hidden sm:grid'>
-    <PhoneSkill name="HTML" progress="100"/>
+    <div className='w-full grid-cols-12 relative items-center justify-center hidden sm:grid gap-2 mt-2'>
+    <PhoneSkill name="HTML/CSS" progress="100" Icon={HTML}/>
+    <PhoneSkill name="JavaScript" progress="75" Icon={JS}/>
+    <PhoneSkill name="Python" progress="100" Icon={Python}/>
+    <PhoneSkill name="React/React-Native" progress="75" Icon={ReactIcon}/>
+    <PhoneSkill name="TypeScript" progress="75" Icon={TS}/>
+    <PhoneSkill name="MongoDB" progress="75" Icon={MDB}/>
+    <PhoneSkill name="C/C++" progress="100" Icon={CC}/>
+    <PhoneSkill name="NextJS" progress="75" Icon={Nextjs}/>
+    <PhoneSkill name="NodeJS/Express.js" progress="75" Icon={NodeIcon}/>
+    <PhoneSkill name="Java" progress="75" Icon={Java}/>
+    <PhoneSkill name="Machine Learning" progress="75" Icon={ML}/>
+
     </div>
     </>
   )
