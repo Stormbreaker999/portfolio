@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import profile from '../../public/developer-pic-1.png'
+import profile from '../../public/frontphoto.png'
 import Image from'next/image'
 import AnimatedText from '../components/AnimatedText'
 import Link from 'next/link'
