@@ -82,13 +82,14 @@ function projects() {
                 <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
-                        <FeaturedProject title={"Payroll Management System"} 
-                        summary={"Tech Stack- Python, HTML, CSS, Django Framework. Built a payroll management system that converts the manual system of maintaining salary processing records at a company using computers. I utilized the power of Django Framework for processing requests and carrying out efficient Database operations."}
-                        img={project1}
+                        <FeaturedProject title={"ECOM-APP (AVI-COM)"} 
+                        summary={"Tech Stack- React, Material UI, Firebase, Redux, Vite. Built a responsive and interactive web interface simulating all the functionalities E-commerce website using React."}
+                        img={ecom}
                         type="Featured Project"
-                        link={"https://github.com/Stormbreaker999/payroll-management-system"}
-                        github={"https://github.com/Stormbreaker999/payroll-management-system"}/>
+                        link={"https://avicom.netlify.app/"}
+                        github={"https://github.com/Stormbreaker999/Avicom"}/>
                     </div>
+                    
                     <div className='col-span-6 sm:col-span-12'>
                         <Project title={"Spotify Clone"} 
                         img={spotify}
@@ -104,13 +105,14 @@ function projects() {
                         github={"https://github.com/Stormbreaker999/Tweet-Sentiment-Analysis"} />
                     </div>
                     <div className='col-span-12'>
-                        <FeaturedProject title={"ECOM-APP (AVI-COM)"} 
-                        summary={"Tech Stack- React, Material UI, Firebase, Redux, Vite. Built a responsive and interactive web interface simulating all the functionalities E-commerce website using React."}
-                        img={ecom}
+                        <FeaturedProject title={"Payroll Management System"} 
+                        summary={"Tech Stack- Python, HTML, CSS, Django Framework. Built a payroll management system that converts the manual system of maintaining salary processing records at a company using computers. I utilized the power of Django Framework for processing requests and carrying out efficient Database operations."}
+                        img={project1}
                         type="Featured Project"
-                        link={"https://avicom.netlify.app/"}
-                        github={"https://github.com/Stormbreaker999/Avicom"}/>
+                        link={"https://github.com/Stormbreaker999/payroll-management-system"}
+                        github={"https://github.com/Stormbreaker999/payroll-management-system"}/>
                     </div>
+
                     <div className='col-span-6 sm:col-span-12'>
                         <Project title={"Weather App-Storm Mapper"} 
                         img={weather}
